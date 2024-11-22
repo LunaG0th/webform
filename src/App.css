@@ -1,0 +1,130 @@
+
+/* media queries 
+ */
+
+/* xs */
+/* @media (width >= 475px) { } */
+
+/* sm */
+/* @media (width >= 640px) { } */
+
+/* md */
+/* @media (width >= 768px) { } */
+
+/* lg */
+/* @media (width >= 1024px) { } */
+
+/* xl */
+/* @media (width >= 1280px) { } */
+
+/* 2xl */
+/* @media (width >= 1536px) { } */
+
+/* Google icon font  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.btn {
+  padding: 1.1em;
+  border-radius: 5px;
+  background-color: var(--clr-green);
+  color: var(--clr-white);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-out,
+    background-color 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--clr-light-green);
+  color: var(--clr-gray);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(44, 37, 35, 0.5);
+}
+
+.bx-shadow {
+  box-shadow: 0 4px 8px rgba(44, 37, 35, 0.5);
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid salmon; */
+}
+
+.container-fluid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 0.5em;
+  padding-right: 0.5em; */
+  /* border: var(--temp); */
+}
+
+/* section {
+  border: var(--temp);
+} */
+
+/**
+ * ----------------------------------------
+ * media queries
+ * ----------------------------------------
+ */
+
+/* xs */
+@media (width >= 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (width >= 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (width >= 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (width >= 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* xl */
+@media (width >= 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (width >= 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+  /* body {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(44, 37, 35, 0.5);
+    padding: 0 .5rem;
+  } */
+}
+
+/* @media (width >= 1800px) {
+    .container {
+   max-width: 1800px;
+}
+   body {
+    width: 65%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(44,37,35, 0.5);
+   }
+} */
+
